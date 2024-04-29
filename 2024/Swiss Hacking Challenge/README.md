@@ -1,7 +1,7 @@
 # Swiss Hacking Challange 2024 (`25/31`)
 ## crypto (`4/5`)
 - [office-encryption](./office-encryption/README.md) `baby`
-> - [farm-life](./farm-life/README.md) `easy`
+- [farm-life](./farm-life/README.md) `easy`
 > - [cry](./cry/README.md) `medium`
 > - [desperate-intern](./desperate-intern/README.md) `medium`
 
@@ -14,7 +14,7 @@
 
 ## misc (`5/6`)
 - [shc2024-sanity-check](./shc2024-sanity-check/README.md) `baby`
-> - [least-suspicious-bit](./least-suspicious-bit/README.md) `baby`
+- [least-suspicious-bit](./least-suspicious-bit/README.md) `baby`
 - [rogue-clippy](./rogue-clippy/README.md) `easy`
 > - [cheated-results](./cheated-results/README.md) `medium`
 > - [three-headed-doggo](./three-headed-doggo/README.md) `medium`
