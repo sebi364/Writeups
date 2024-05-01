@@ -1,12 +1,4 @@
-# printer-destroyer-format
-## About:
-### Author: `xnull`
-### Difficulty: `baby`
-### Description:
-> I received a todo list from IT which I really need to complete.
-> Clippy is telling lies and says it is not safe to open this PDF :(
-> Stupid Clippy
-### Categories: [`forensics`]
+# printer-destroyer-format - [forensics] [baby]
 ### Files:
 - [printer-destroyer.tar.gz](https://ctf.m0unt41n.ch/handouts/printer-destroyer-format.tar.gz)
 ```graphql

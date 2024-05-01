@@ -1,29 +1,15 @@
-# office-encryption
-## About:
-### Author: `xnull`
-### Difficulty: `baby`
-### Description:
-> I heard about this nation state actor
-> I'm not sure why actors would attack companies but we need encryption to secure our systems.
-> Please add the encryption program I made to every software we had so we are secure! 
-### Categories: [`crypto`]
+# office-encryption - [crypto] [baby]
 ### Files: [office-encryption.tar.gz](https://ctf.m0unt41n.ch/handouts/office-encryption.tar.gz)
 ```graphql
 ├── cipher_map.txt
 ├── cipher.txt
 └── encrypt.py
 ```
-### In a Nutshell:
-We are given a python script that performs a substitution cipher encryption on a given text. The encrypted flag is provided, along with the cipher map used for encryption. Our task is to reverse the encryption and obtain the original flag.
-
-## Walktrough:
+## Walkthrough:
 ### Analysis:
-We are given 3 files: a python script `encrypt.py` that encrypts a text, a file containing a ciphertext, and a file named `cipher_map.txt`.
+We are given 3 files: a Python script `encrypt.py` that encrypts a text, a file containing a ciphertext and a file named `cipher_map.txt`.
 
 Taking a look at the `encrypt.py` file, we can see that it implements a simple substitution cipher. The `generate_substitution_cipher` function takes a text as input, shuffles the alphabet, and replaces each letter of the text with its shuffled counterpart:
-
-<details>
-<summary><b>encrypt.py</b></summary>
 
 ```py
 from random import shuffle
@@ -59,18 +45,13 @@ encrypted_text, cipher_map = generate_substitution_cipher(text)
 print(encrypted_text, cipher_map)
 ```
 
-</details>
-
 We can confirm this by taking a look at the cyphertext, where a general outline of a flag is recognizable, but some characters don't make any sense:
 ```
 swo2024{jytmm_ruvs_opgbzu_mum}
 ```
 
 ### Decrypting the Flag:
-The flag can be decrypted by reversing the cipher-map and rerunning the same substitution cypher. This can be achieved with a few small modifications to `encrypt.py`:
-
-<details>
-<summary><b>decrypt.py</b></summary>
+The flag can be decrypted by reversing the cipher-map and rerunning the same substitution cypher:
 
 ```py
 #!/usr/bin/python
@@ -92,8 +73,6 @@ cryptstring = "swo2024{jytmm_ruvs_opgbzu_mum}"
 decrypted = decrypt(cryptstring, cypher)
 print(decrypted)
 ```
-
-</details>
 
 ```
 shc2024{xnull_does_crypto_lol}

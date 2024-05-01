@@ -10,7 +10,7 @@
 > - [what-is-a-pin](./what-is-a-pin/README.md) `easy`
 > - [optimized-ntfs](./optimized-ntfs/README.md) `medium`
 > - [give-me-logs](./give-me-logs/README.md) `medium`
-> - [the-office](./the-office/README.md) `hard`
+- [the-office](./the-office/README.md) `hard`
 
 ## misc (`5/6`)
 - [shc2024-sanity-check](./shc2024-sanity-check/README.md) `baby`
