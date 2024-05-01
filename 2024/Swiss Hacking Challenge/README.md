@@ -2,7 +2,7 @@
 ## crypto (`4/5`)
 - [office-encryption](./office-encryption/README.md) `baby`
 - [farm-life](./farm-life/README.md) `easy`
-> - [cry](./cry/README.md) `medium`
+- [cry](./cry/README.md) `medium`
 > - [desperate-intern](./desperate-intern/README.md) `medium`
 
 ## forensics (`5/5`)

@@ -358,7 +358,7 @@ Let's take a closer look at the `/files` endpoint:
 }
 ```
 *Response:*
-```json
+```
 ?
 ```
 
